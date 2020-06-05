@@ -1,0 +1,270 @@
+.navbar{
+    background-color: #F5F853 !important;
+    /* height: 100px; */
+    /* overflow: hidden;
+    z-index: 10; */
+}
+.navbar-brand{
+    /* color: white; */
+}
+ .navbar img{
+    size: 10px;
+    background: transparent;
+} 
+/* img{
+    background: transparent;
+    size: 10px;
+} */
+.nav-link{
+    font-weight: bolder;
+    color: white;
+}
+.nav-link:hover{
+    background-color: white;
+    border-radius: 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.button1{
+    border: none;
+    border-radius: 20px; 
+    width: auto;
+    height: 30px;
+}
+
+
+.features{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fa-truck, .fa-clock-o, .fa-map-marker, .fa-thumbs-up{
+    font-size: 40px !important;
+    margin-right: 10px;
+    color: #F5F853   !important;
+}
+.feature1, .feature2, .feature3, .feature4{
+    display: flex;
+    width:280;
+    height: 50px;
+    background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.feature1:hover,.feature2:hover,.feature3:hover,.feature4:hover{
+    box-shadow: 2.5px 4.5px 5.5px rgb(102, 101, 101);
+}
+@media only screen and (max-width:600px){
+    /* .feature1, .feature2, .feature3, .feature4{
+         width: 45%;
+    } */
+}
+
+
+
+.table1{
+    /* margin-top: 30px; */
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    
+}
+table{
+    /* border: none; */
+}
+#icon{
+   /* background-color: yellowgreen;
+   border: yellow; */
+}
+.fa-mobile{
+    font-size:250px !important;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: #F5F853;
+}
+td>h3{
+    padding-top: 90px;
+    padding-left: 70px;
+    
+}
+td>p{
+    padding-top: 0px;
+    padding-left: 70px;
+}
+@media only screen and (max-width:800px){
+    .fa-mobile{
+        font-size: 220px !important;
+        margin-right: 80px;
+        
+    }
+    .feature1,.feature2,.feature3,.feature4{
+        width: 40%;
+    }
+}
+@media only screen and (max-width:600px){
+    .fa-mobile{
+        font-size: 220px !important;
+        margin-right: 80px;
+        
+    }
+    .feature1,.feature2,.feature3,.feature4{
+        width: 80%;
+    }
+
+    
+}
+
+
+@media only screen and (max-width:400px){
+    .fa-mobile{
+        /* display: flex; */
+        font-size:150px !important ;
+        /* margin-left: 10px; */
+        /* justify-content: center; */
+        margin-right: 200px;
+    }
+    #icon{
+        width: 100% !important;
+    }
+    td>p{
+        /* padding-top: 100px; */
+    }
+}
+
+.aboutus{
+    padding-left: 50px;
+    padding-right: 40px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.aboutus>h6{
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.aboutus h5{
+    font-weight: bold;
+}
+
+.row{
+    background-color: black;
+    margin-top: 20px ;
+    
+}
+.footer1, .footer3{
+    color: white;
+     /* background-color: chartreuse; */
+      padding-left: 20px;
+     padding-right: 10px; 
+     padding: auto; 
+     margin: 20px 30px 20px 30px;
+
+}
+.footer1 label{
+    font-size: 12px;
+}
+.footer1 i{
+    font-size: large;
+    color: #F5F853;
+}
+.footer3>i{
+    padding-right: 10px;
+    padding-left: 10px;
+     font-size:25px ;
+}
+.footer3>i:hover{
+    color:#F5F853;
+}
+
+.footericons{
+    margin-right:18px;
+}
+
+
+
+
+.fa-arrow-circle-o-up{
+    font-size: 30px !important;
+    float:right;
+    color:black;
+    padding-right: 50px;
+    padding-top: 10px;
+
+}
+.last{
+    background-color: #F5F853;
+
+    width:100%;
+
+    height:50px;
+
+}
+
+
+.contact{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height:300px;
+    width:100%;
+
+}
+.contact1, .contact2{
+    display: flex;
+    /* width:20; */
+    height: 250px;
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.contact1{
+    width:290;
+    margin-right: 10px;
+    margin-left: 30px;
+    padding-left: 40px !important;
+
+    padding-top: 15px;
+
+    color : white;
+
+    font-size:11.5px;
+
+    float:left;
+}
+.contact2{
+    /* background-color: yellow;  */
+    width: 230px;
+    margin-top: 25px;
+    margin-right: 150px;
+    float: right;
+    color: white;
+}
+
+.contact2>i{
+    padding-right: 10px;
+    padding-left: 10px;
+     font-size:25px ;
+     
+}
+.contact2>i:hover{
+    color:#F5F853;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+

@@ -1,0 +1,297 @@
+.navbar{
+    background-color: #F5F853 !important;
+}
+.nav-link{
+    font-weight: bolder;
+    color: white;
+}
+.nav-link:hover{
+    background-color: white;
+    border-radius: 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.fa-shopping-cart{
+    font-size: 30px !important;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 8px;
+}
+/* .sticky-top{
+    padding: 20px 0px 0px 20px;
+    background-color: #F5F853;
+    height: 70px;
+} */
+
+/* #header2{
+    background-color: #F5F853 !important;
+    /* height: 70px; 
+
+}
+.navbar-brand{
+    background-color: #F5F853;
+    font-size: 160% ;
+    padding-top:10px ;
+    padding-left: 20px;
+    font-weight: 700;
+} */
+
+.form1{
+    margin-top: 40px;
+    /* background-color: violet; */
+    padding-top: 10px;
+}
+li{
+    margin-left: 10%;
+}
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 1%;
+    width: 135px;
+    display: inline-block;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    font-size: 13px;
+}
+textarea{
+    vertical-align: top;
+    margin-left:14% ;
+    margin-bottom: 10px;
+}
+#ta4{
+    margin-left: 0% !important;
+}
+#button1{
+    float: right;
+    margin-right: 15%;
+}
+
+
+
+.fa-arrow-circle-o-up{
+    font-size: 30px !important;
+    float:right !important;
+    color:black;
+    padding-right: 50px;
+    padding-top: 10px;
+
+}
+.last{
+    background-color: #F5F853;
+
+    width:100%;
+
+    height:50px;
+
+}
+.custombutton{
+    /* background-color: bisque; */
+    /* margin-bottom: 5px; */
+    width: 100%;
+    height: 70px;
+}
+
+
+ @media only screen and (min-width:300px){
+    label, p, textarea{
+        display: block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-left: 0px !important;
+    }
+    #ta4{
+        max-width: 200px;
+    }
+} 
+
+@media only screen and (min-width:350px){
+    label, p, textarea{
+        display: block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-left:1% !important;
+    }
+    #ta4{
+        max-width: 250px;
+    }
+}
+@media only screen and (min-width:400px){
+    label, p, textarea{
+        display: block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-left: 1% !important;
+    }
+    #ta4{
+        max-width: 250px;
+    }
+}
+@media only screen and (min-width:450px){
+    label, p, textarea{
+        display: block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-left: 1% !important;
+    }
+    #ta4{
+        max-width: 250px;
+    }
+}
+@media only screen and (min-width:500px){
+    label, p, textarea{
+        display: block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-left: 1% !important;
+    }
+    #ta4{
+        max-width: 300px;
+    }
+}
+@media only screen and (min-width:550px){
+    label, p, textarea{
+        display: block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-top: 0px !important;
+        margin-left: 1% !important;
+    }
+    #ta4{
+        max-width: 300px;
+    }
+}
+
+@media only screen and (min-width:600px){
+    label, p, textarea{
+        display: inline-block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-left: 28.5% !important;
+    }
+    #ta4{
+        max-width: 250px;
+    }
+}
+/* @media only screen and (max-width:632px){
+    label, p, textarea{
+        display: inline-block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-left: 15% !important;
+    }
+    #ta4{
+        max-width: 250px;
+    }
+} */
+@media only screen and (min-width:650px){
+    label, p, textarea{
+        display: inline-block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-left: 26% !important;
+    }
+    #ta4{
+        max-width: 250px;
+    }
+}
+@media only screen and (min-width:700px){
+    label, p, textarea{
+        display: inline-block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-left: 24% !important;
+    }
+    #ta4{
+        max-width: 250px;
+    }
+}
+@media only screen and (min-width:750px){
+    label, p, textarea{
+        display: inline-block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-left: 23% !important;
+    }
+    #ta4{
+        max-width: 250px;
+    }
+}
+@media only screen and (min-width:800px){
+    label, p, textarea{
+        display: inline-block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-left: 21% !important;
+    }
+    #ta4{
+        max-width: 250px;
+    }
+}
+@media only screen and (min-width:850px){
+    label, p, textarea{
+        display: inline-block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-left: 20% !important;
+    }
+    #ta4{
+        max-width: 250px;
+    }
+}
+
+ @media only screen and (min-width:900px){
+    label, p, textarea{
+        display: inline-block;
+        margin-left: 1%;
+    }
+    textarea{
+        margin-left: 19%!important;
+    }
+    #ta4{
+        max-width: 250px;
+    }
+} 
+/* @media only screen and (min-width:870px){
+    label, p, textarea{
+       display: inline-block;
+       margin-left: 1%;
+   } 
+   textarea{
+       /* margin-left: 17.5% !important; 
+       margin-left: 15% !important;
+   }
+   #ta4{
+       max-width: 250px;
+   }
+} */
+@media only screen and (min-width:970px){
+     label, p, textarea{
+        display: inline-block;
+        margin-left: 1%;
+    } 
+    textarea{
+        /* margin-left: 17.5% !important; */
+        margin-left: 14% !important;
+    }
+    #ta4{
+        max-width: 250px;
+    }
+}
